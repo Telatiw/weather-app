@@ -242,6 +242,9 @@
       background-color: color-mix(in oklab, var(--color-white) 75%, transparent);
     }
   }
+  .bg-\[url\(\'\.\/files\/picture\/bg-weather\.jpg\'\)\] {
+    background-image: url('./files/picture/bg-weather.jpg');
+  }
   .bg-\[url\(\'\/files\/picture\/bg-weather\.jpg\'\)\] {
     background-image: url('/files/picture/bg-weather.jpg');
   }
