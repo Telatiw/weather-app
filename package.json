@@ -1,0 +1,16 @@
+{
+  "name": "weather-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tail": "npx @tailwindcss/cli -i ./style/tailwind/input.css -o ./style/tailwind/output.css --w"
+  },
+  "keywords": [],
+  "author": "Mohim",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.17",
+    "tailwindcss": "^4.1.17"
+  }
+}

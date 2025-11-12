@@ -245,6 +245,9 @@
   .bg-\[url\(\'\/files\/picture\/bg-weatherDark\.jpg\'\)\] {
     background-image: url('/files/picture/bg-weatherDark.jpg');
   }
+  .bg-\[url\(\'\/files\/picture\/weatherDark\.jpg\'\)\] {
+    background-image: url('/files/picture/weatherDark.jpg');
+  }
   .bg-cover {
     background-size: cover;
   }
