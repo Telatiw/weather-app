@@ -14,11 +14,14 @@ let fetchData = () => {
         .then(data => {
             console.log(data);
             showData(data)
+            inputCoutnryElem.value = ''
         })
         .catch((res) => {
+            const position = window.innerWidth <= 768 ? 'topCenter' : 'bottomRight'
             iziToast.warning({
                 title: 'oh',
-                message: 'doesn\'t exit this country or city'
+                message: 'doesn\'t exit this country or city',
+                position: position
             });
         })
 }
