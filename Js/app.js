@@ -15,6 +15,7 @@ let fetchData = () => {
             console.log(data);
             showData(data)
             inputCoutnryElem.value = ''
+            inputCoutnryElem.blur()
         })
         .catch((res) => {
             const position = window.innerWidth <= 768 ? 'topCenter' : 'bottomRight'
@@ -23,6 +24,8 @@ let fetchData = () => {
                 message: 'doesn\'t exit this country or city',
                 position: position
             });
+            inputCoutnryElem.value = ''
+            inputCoutnryElem.blur()
         })
 }
 function showData(data) {
